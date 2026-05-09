@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: fx_m_glow_01
+  m_Name: fx_m_arrow_01
   m_Shader: {fileID: 4800000, guid: af107a808e3f38c4a9e16a7dbbc30902, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -49,7 +49,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: b6fbf9853d0c6e74a960a482d2e82965, type: 3}
+        m_Texture: {fileID: 2800000, guid: 72c7698f747eb4e429a4793416d84010, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
