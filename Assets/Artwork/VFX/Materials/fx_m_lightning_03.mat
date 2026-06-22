@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: fx_m_lightning_01
+  m_Name: fx_m_lightning_03
   m_Shader: {fileID: 4800000, guid: af107a808e3f38c4a9e16a7dbbc30902, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -48,7 +48,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 6b6df5a0f0f642741afc3cb6241dd804, type: 3}
+        m_Texture: {fileID: 2800000, guid: a4576c4766f9a3c42a077c5193494a12, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -143,11 +143,11 @@ Material:
     - _EdgeColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MainSecond_Panning: {r: 0, g: 0, b: 0, a: 0}
-    - _Main_Color: {r: 1.3101269, g: 1.1483395, b: 7.3772106, a: 1}
+    - _Main_Color: {r: 1.2452831, g: 1.4999548, b: 8, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _Third_Panning: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &5439911894798821026
+--- !u!114 &3842877663722270285
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

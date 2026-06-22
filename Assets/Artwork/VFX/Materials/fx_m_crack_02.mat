@@ -7,12 +7,14 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: fx_m_lightning_01
+  m_Name: fx_m_crack_02
   m_Shader: {fileID: 4800000, guid: af107a808e3f38c4a9e16a7dbbc30902, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
-  m_InvalidKeywords: []
+  m_InvalidKeywords:
+  - _USE_ALPHA_ON
+  - _USE_CUSTOM_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -48,7 +50,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 6b6df5a0f0f642741afc3cb6241dd804, type: 3}
+        m_Texture: {fileID: 2800000, guid: f91f1de030d37f943b17b5a6374c4c7f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -64,7 +66,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SecondNoiseTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: e5bb46aec2d594b4fb329a97ac25ede8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
@@ -103,9 +105,9 @@ Material:
     - _CullMode: 0
     - _Cutoff: 0.5
     - _Cutout_Amount: 0
-    - _Cutout_Blend: 0
-    - _Cutout_Hardness: 0
-    - _Cutout_Outline_Border: 0
+    - _Cutout_Blend: 0.616
+    - _Cutout_Hardness: 0.139
+    - _Cutout_Outline_Border: 0.753
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
@@ -129,8 +131,8 @@ Material:
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
-    - _Use_Alpha: 0
-    - _Use_Custom: 0
+    - _Use_Alpha: 1
+    - _Use_Custom: 1
     - _Use_SecondMask: 0
     - _Use_ThridColor: 0
     - _Use_ThridDissolveColor: 0
@@ -143,11 +145,11 @@ Material:
     - _EdgeColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MainSecond_Panning: {r: 0, g: 0, b: 0, a: 0}
-    - _Main_Color: {r: 1.3101269, g: 1.1483395, b: 7.3772106, a: 1}
+    - _Main_Color: {r: 0.33757743, g: 0.43963292, b: 3.7666545, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _Third_Panning: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &5439911894798821026
+--- !u!114 &445683591309183279
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
