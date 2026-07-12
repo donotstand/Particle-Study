@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: d166985f5728e894c81692537a9852fa
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _ParallaxTex: {fileID: 2800000, guid: f57ae76a96ff0344b9f719370a9865bf, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
