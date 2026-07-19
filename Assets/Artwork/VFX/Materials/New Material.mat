@@ -122,11 +122,11 @@ Material:
     - _Cull: 2
     - _CullMode: 0
     - _Cutoff: 0.5
-    - _Cutout_Amount: -0.21
-    - _Cutout_Blend: 0
+    - _Cutout_Amount: 0.28
+    - _Cutout_Blend: 1
     - _Cutout_Bllend: 0.547
-    - _Cutout_EgeBorderr: 0.49
-    - _Cutout_Hardness: 0.07
+    - _Cutout_EgeBorderr: 0.52
+    - _Cutout_Hardness: 0.13
     - _D_Mask_Value: 1
     - _D_UMask_Count: 0
     - _D_UReverse_Mask: 1
@@ -140,7 +140,7 @@ Material:
     - _Distortion_Amount: 0
     - _DstBlend: 0
     - _DstBlendAlpha: 0
-    - _Edge_Intensity: 1
+    - _Edge_Intensity: 1.46
     - _EnvironmentReflections: 1
     - _Float0: 0
     - _GlossMapScale: 0
