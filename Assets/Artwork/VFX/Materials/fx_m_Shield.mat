@@ -7,13 +7,15 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New Material
+  m_Name: fx_m_Shield
   m_Shader: {fileID: 4800000, guid: a1451b6c2f5b1d74fb6f7c8be3f6953e, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords:
   - _USE_CUSTOM_ON
+  - _USE_SECONDMASK_ON
+  - _USE_THIRDCOLOR_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -53,9 +55,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: abb8cdf160ff6c44291538f664d43d41, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+        m_Offset: {x: 1, y: 1}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -69,9 +71,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SecondTex:
-        m_Texture: {fileID: 2800000, guid: 5e56c2833038050459b61c45167eed11, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+        m_Texture: {fileID: 2800000, guid: cefaa4d61ab66204292af1c18f58e5f6, type: 3}
+        m_Scale: {x: 0.6, y: 0.6}
+        m_Offset: {x: 0.2, y: 0.2}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -81,9 +83,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ThirdTex:
-        m_Texture: {fileID: 2800000, guid: 097ce8f398813d44a90184fe7fb060df, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+        m_Texture: {fileID: 2800000, guid: ce8da9cb832fa3243b12fc3989fc0884, type: 3}
+        m_Scale: {x: 0.46, y: 0.5}
+        m_Offset: {x: 0.27, y: 0.27}
     - _texcoord:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -114,7 +116,7 @@ Material:
     - _AlphaToMask: 0
     - _Alpha_Clip_Value: 0
     - _Blend: 0
-    - _BlendMode: 10
+    - _BlendMode: 1
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
     - _ClearCoatMask: 0
@@ -122,11 +124,11 @@ Material:
     - _Cull: 2
     - _CullMode: 0
     - _Cutoff: 0.5
-    - _Cutout_Amount: 0.28
-    - _Cutout_Blend: 1
+    - _Cutout_Amount: -1.32
+    - _Cutout_Blend: 0
     - _Cutout_Bllend: 0.547
-    - _Cutout_EgeBorderr: 0.52
-    - _Cutout_Hardness: 0.13
+    - _Cutout_EgeBorderr: 2.9
+    - _Cutout_Hardness: 1
     - _D_Mask_Value: 1
     - _D_UMask_Count: 0
     - _D_UReverse_Mask: 1
@@ -140,7 +142,7 @@ Material:
     - _Distortion_Amount: 0
     - _DstBlend: 0
     - _DstBlendAlpha: 0
-    - _Edge_Intensity: 1.46
+    - _Edge_Intensity: 15
     - _EnvironmentReflections: 1
     - _Float0: 0
     - _GlossMapScale: 0
@@ -172,8 +174,8 @@ Material:
     - _Use_DissolveMask: 1
     - _Use_MainAlpha: 0
     - _Use_SecondAlpha: 0
-    - _Use_SecondMask: 0
-    - _Use_ThirdColor: 0
+    - _Use_SecondMask: 1
+    - _Use_ThirdColor: 1
     - _Use_ThirdEdgeColor: 0
     - _Use_ThirdEdgeColor1: 0
     - _Use_Tile: 1
@@ -184,16 +186,16 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EdgeColor: {r: 1, g: 0, b: 0, a: 1}
+    - _EdgeColor: {r: 1, g: 0.43867922, b: 0.82358485, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MainColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MainColor: {r: 0, g: 0, b: 0, a: 1}
     - _MainSecond_Panning: {r: 0, g: 0, b: 0, a: 0}
     - _Main_XYCount: {r: 0, g: 0, b: 0, a: 0}
     - _Main_XYPan: {r: 0, g: 0, b: 0, a: 0}
     - _Second_XYCount: {r: 0, g: 0, b: 0, a: 0}
     - _Second_XYPan: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _Third_Panning: {r: 0, g: 0, b: 0, a: 0}
+    - _Third_Panning: {r: 0.74, g: 0.45, b: 0, a: 0}
     - _Tint_Color: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &966461423107537307
