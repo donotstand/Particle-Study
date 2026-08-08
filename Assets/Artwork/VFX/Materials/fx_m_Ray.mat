@@ -127,9 +127,9 @@ Material:
     - _Cull: 2
     - _CullMode: 0
     - _Cutoff: 0.5
-    - _Cutout_Amount: 0
+    - _Cutout_Amount: 0.3
     - _Cutout_Blend: 0
-    - _Cutout_EgeBorderr: 1
+    - _Cutout_EgeBorderr: 0.8
     - _Cutout_Hardness: 0
     - _Cutout_Outline_Border: 0.1
     - _DetailAlbedoMapScale: 1
